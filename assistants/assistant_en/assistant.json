@@ -1,0 +1,67 @@
+{
+  "id" : "proj_NX5ZO3qZn5kN",
+  "name" : "WorkOrder",
+  "intents" : [ {
+    "id" : "bobichalton:repeatStep",
+    "type" : "registry",
+    "version" : "0.0.3",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "repeatStep"
+  }, {
+    "id" : "bobichalton:nextStep",
+    "type" : "registry",
+    "version" : "0.0.6",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "nextStep"
+  }, {
+    "id" : "bobichalton:steps",
+    "type" : "registry",
+    "version" : "0.0.4",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "steps"
+  }, {
+    "id" : "bobichalton:previousStep",
+    "type" : "registry",
+    "version" : "0.0.5",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "previousStep"
+  }, {
+    "id" : "bobichalton:openWorkorder",
+    "type" : "registry",
+    "version" : "0.0.8",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "openWorkorder",
+      "id" : "r1V3KTMAz",
+      "entityId" : "entity_XrD6e6gq38Zr",
+      "missingQuestion" : "What recipe?",
+      "required" : true
+    } ],
+    "name" : "openRecipe"
+  }, {
+    "id" : "bobichalton:saveWorkorder",
+    "type" : "registry",
+    "version" : "0.0.6",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "saveWorkorder"
+  } ],
+  "createdAt" : "2018-05-06T08:34:46.115Z",
+  "language" : "en",
+  "version" : {
+    "nluModel" : "0.15.0"
+  },
+  "platform" : {
+    "type" : "raspberrypi"
+  },
+  "asr" : {
+    "type" : "snips"
+  },
+  "analyticsEnabled" : true,
+  "heartbeatEnabled" : true,
+  "hotword" : "hey_lucy"
+}

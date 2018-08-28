@@ -13,15 +13,13 @@ sudo pip install paho-mqtt
 
 Installation
 ```
-git clone https://github.com/Psychokiller1888/MyChef.git
+git clone https://github.com/bobichalton/lucyrepository/
 sudo rm -rf /usr/share/snips/assistant
-sudo mv MyChef/mychef.service /etc/systemd/system
+sudo mv Lucy/lucy.service /etc/systemd/system
 
-FRENCH
- * sudo mv lucy/assistants/assistant_fr /usr/share/snips/assistant
 ENGLISH
  * sudo mv lucy/assistants/assistant_en /usr/share/snips/assistant
- * cd MyChef
+ * cd Lucy
  * sudo nano settings.py => change LANG = 'en'
 
 sudo systemctl restart "snips-*"
@@ -30,6 +28,4 @@ sudo systemctl enable lucy
 ```
 
 
-![cmdfr](https://puu.sh/Amr85.png)
-
-![cmdsen](https://puu.sh/Amr4S.png)
+![cmdsen](https://console.snips.ai/images/bundles/bundle-folder.svg)

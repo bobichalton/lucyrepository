@@ -1,2 +1,12 @@
-assistant_id: proj_NX5ZO3qZn5kN
+assistant_id: proj_0woNg7KWXG
+tts:
+    service: snips
+microphone:
+    identifier: respeaker
+    params:
+        vendor_id: "2886"
+        product_id: "0018"
+mqtt_broker:
+    hostname: <CUSTOM_MQTT_HOSTNAME>
+    port: <CUSTOM_MQTT_PORT>
 skills: []
